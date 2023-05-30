@@ -366,8 +366,8 @@ private:
     window.draw(background);
 
     // Calculate the dimensions of the play area
-    float playAreaWidth = BLOCK_SIZE * 10 - 6;
-    float playAreaHeight = BLOCK_SIZE * 20 - 6;
+    float playAreaWidth = BOARD_WIDTH * BLOCK_SIZE - 3;
+    float playAreaHeight = BOARD_HEIGHT * BLOCK_SIZE - 3;
 
     // Draw the play area with a darker gray color and gold border
     sf::RectangleShape playArea(sf::Vector2f(playAreaWidth, playAreaHeight));
