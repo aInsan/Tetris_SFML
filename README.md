@@ -2,7 +2,7 @@
 
 This is a simple implementation of the classic Tetris game using SFML and C++. It features a title screen, music playback, display of the next piece, score tracking, and gameplay mechanics faithful to the original game.
 
-![Tetris Gameplay](tetris_screenshot.png)
+![Tetris Gameplay](resources/tetris_screenshot.png)
 
 ## Features
 
