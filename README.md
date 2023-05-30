@@ -30,7 +30,7 @@ g++ -std=c++11 -o tetris Main.cpp -lsfml-graphics -lsfml-window -lsfml-system -l
 
 3. Run the compiled executable:
 
-./tetris
+`./tetris`
 
 
 
