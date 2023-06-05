@@ -26,13 +26,11 @@ git clone `https://github.com/aInsan/Tetris_SFML.git`
 
 g++ -std=c++11 -o tetris Main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
-
+Make sure you have the SFML headers and libraries
 
 3. Run the compiled executable:
 
 `./tetris`
-
-
 
 ## How to Play
 
