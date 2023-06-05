@@ -27,9 +27,9 @@ cd Tetris-SFML
 
 2. Build the project using a C++ compiler (e.g., GCC):
 
-download SFML; on a debian-based OS use `sudo apt-get install libsfml-dev`
+download SFML; on a debian-based OS use ```sudo apt-get install libsfml-dev```
 
-`g++ -std=c++11 -o tetris source/Main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio`
+```g++ -std=c++11 -o tetris source/Main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio```
 
 3. Run the compiled executable:
 
