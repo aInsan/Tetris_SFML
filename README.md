@@ -19,9 +19,9 @@ This is a simple implementation of the classic Tetris game using SFML and C++. I
 
 1. Clone this repository to your local machine:
 
-git clone `https://github.com/aInsan/Tetris_SFML.git`
+git clone `https://github.com/aInsan/Tetris_SFML.git
 
-`cd Tetris-SFML`
+           cd Tetris-SFML`
 
 2. Build the project using a C++ compiler (e.g., GCC):
 
