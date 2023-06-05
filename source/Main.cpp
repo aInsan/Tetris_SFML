@@ -134,8 +134,8 @@ const sf::Color PIECE_COLORS[] = {
 
 class TetrisGame {
 public:
-    TetrisGame()
-        : window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Tetris"),
+    TetrisGame():
+          window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Tetris"),
           block(sf::Vector2f(BLOCK_SIZE, BLOCK_SIZE)),
           nextBlock(sf::Vector2f(BLOCK_SIZE, BLOCK_SIZE)),
           font(),
@@ -378,7 +378,7 @@ private:
     window.draw(playArea);
 
     sf::RectangleShape block(sf::Vector2f(BLOCK_SIZE, BLOCK_SIZE));
-    block.setOutlineThickness(1.f);
+    block.setOutlineThickness(1.0f);
 
     for (int i = 0; i < BOARD_HEIGHT; i++) {
         for (int j = 0; j < BOARD_WIDTH; j++) {
