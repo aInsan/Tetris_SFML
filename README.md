@@ -17,7 +17,7 @@ This is a simple implementation of the classic Tetris game using SFML and C++. I
 
 ## How to Build and Run
 
-1. Clone this repository to your local machine:
+#1. Clone this repository to your local machine:
 
 git clone 
 ```
@@ -25,7 +25,7 @@ https://github.com/aInsan/Tetris_SFML.git
 cd Tetris-SFML
 ```
 
-2. Build the project using a C++ compiler (e.g., GCC):
+#2. Build the project using a C++ compiler (e.g., GCC):
 
 download SFML; on a debian-based OS use :
 ```
@@ -36,7 +36,7 @@ Compile with this command:
 g++ -std=c++11 -o tetris source/Main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 ```
 
-3. Run the compiled executable:
+#3. Run the compiled executable:
 
 `./tetris`
 
